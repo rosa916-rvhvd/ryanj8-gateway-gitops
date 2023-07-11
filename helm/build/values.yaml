@@ -1,0 +1,15 @@
+app:
+  name: ryanj8-poi-gateway-app
+  namespace: ryanj8
+  cluster: .apps.rosa916.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/ryanj8-gateway
+  org: rosa916-rvhvd
+  name: ryanj8-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj8/poi-gateway-app
+  tag: latest
